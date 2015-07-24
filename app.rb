@@ -10,17 +10,17 @@ get '/' do
   "Welcome to Fake Songs Website!"
 end
 
-get '/api/Billy-Jean' do
+get '/api/BillyJean' do
   cross_origin
   fake_song('Billy Jean', '1980', 'Micheal Jackons')
 end
 
-get '/api/Whisper-Song' do
+get '/api/WhisperSong' do
   cross_origin
   fake_song('Whisper Song', '1984', 'Frankie Knuckles')
 end
 
-get '/api/Purple-Rain' do
+get '/api/PurpleRain' do
   cross_origin
   fake_song('Purple Rain', '1982', 'Prince')
 end
